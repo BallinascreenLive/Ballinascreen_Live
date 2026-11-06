@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ballinascreen GAC – fixtures, results and live scores</title>
+<meta name="description" content="Fixtures, results and live scores for every Ballinascreen team: football, ladies, hurling and camogie.">
+<meta name="theme-color" content="#0653d5">
+<meta name="apple-mobile-web-app-title" content="Screen GAC">
+<link rel="icon" type="image/png" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta property="og:title" content="Ballinascreen GAC">
+<meta property="og:description" content="Fixtures, results and live scores for every Ballinascreen team.">
+<meta property="og:image" content="icon-512.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Sofia+Sans+Extra+Condensed:wght@700;800;900&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to fixtures</a>
+
+<header class="mast">
+  <div class="mast-inner">
+    <img class="crest" src="crest-96.jpg" width="64" height="64" alt="Ballinascreen GAC crest">
+    <div>
+      <p class="mast-irish" lang="ga">Naomh Colm, Baile na Scríne</p>
+      <h1>Ballinascreen</h1>
+    </div>
+  </div>
+</header>
+
+<div id="staff" class="staff" hidden></div>
+
+<main id="main">
+  <section id="hero" class="hero" aria-live="polite"></section>
+
+  <div class="tabs" role="tablist" aria-label="Show">
+    <button role="tab" id="tab-fixtures" data-tab="fixtures" aria-controls="panel" aria-selected="true">Fixtures</button>
+    <button role="tab" id="tab-results" data-tab="results" aria-controls="panel" aria-selected="false">Results</button>
+    <button role="tab" id="tab-live" data-tab="live" aria-controls="panel" aria-selected="false">Live<span id="liveDot" class="live-dot" hidden></span></button>
+  </div>
+  <div id="grades" class="grades" role="group" aria-label="Choose a team"></div>
+  <section id="panel" role="tabpanel" aria-labelledby="tab-fixtures"></section>
+</main>
+
+<footer id="foot" class="foot"></footer>
+
+<dialog id="dlg" class="dlg" aria-labelledby="dlgTitle"></dialog>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script src="firebase-config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

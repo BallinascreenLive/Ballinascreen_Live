@@ -1,0 +1,66 @@
+rules_version = '2';
+
+// Derrylin O'Connells live scores
+//   Anyone can READ live scores and club-added games (no login needed).
+//   Only signed-in scorers/admins can WRITE them.
+//   Only admins can add, change or remove scorers.
+//   The first person to complete "Set up the site" becomes the owner (permanent admin).
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() { return request.auth != null; }
+    function ownerDoc() { return /databases/$(database)/documents/config/owner; }
+    function userDoc() { return /databases/$(database)/documents/users/$(request.auth.uid); }
+
+    function isOwner() {
+      return signedIn() && exists(ownerDoc()) && get(ownerDoc()).data.uid == request.auth.uid;
+    }
+    function role() {
+      return exists(userDoc()) ? get(userDoc()).data.role : 'none';
+    }
+    function isAdmin()  { return isOwner() || (signedIn() && role() == 'admin'); }
+    function isScorer() { return isOwner() || (signedIn() && role() in ['scorer', 'admin']); }
+
+    // Who owns the site. Created once, never changed from the app.
+    match /config/owner {
+      allow read: if true;
+      allow create: if signedIn()
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.keys().hasOnly(['uid', 'email', 'claimedAt']);
+      allow update, delete: if false;
+    }
+
+    // Scorers and admins. Doc id = their Firebase Auth uid.
+    match /users/{uid} {
+      allow read: if signedIn() && (request.auth.uid == uid || isAdmin());
+      allow create, update: if isAdmin()
+        && request.resource.data.role in ['scorer', 'admin', 'removed']
+        && request.resource.data.keys().hasOnly(['name', 'email', 'role', 'addedBy', 'addedAt', 'updatedAt'])
+        // nobody can demote or remove the owner
+        && !(exists(ownerDoc()) && get(ownerDoc()).data.uid == uid && request.resource.data.role != 'admin');
+      allow delete: if false;   // use role 'removed' instead, so they can be restored
+    }
+
+    // One document per match being scored live.
+    match /live/{matchId} {
+      allow read: if true;
+      allow create, update: if isScorer()
+        && request.resource.data.status in ['pre', 'h1', 'ht', 'h2', 'et', 'ft']
+        && request.resource.data.events is list
+        && request.resource.data.events.size() <= 300
+        && request.resource.data.date is string;
+      allow delete: if isAdmin();
+    }
+
+    // Games added by the club that aren't on the Fermanagh GAA site
+    // (challenge matches, blitzes, ladies games ...).
+    match /games/{gameId} {
+      allow read: if true;
+      allow create, update: if isScorer()
+        && request.resource.data.date is string
+        && request.resource.data.home is string
+        && request.resource.data.away is string;
+      allow delete: if isScorer();
+    }
+  }
+}

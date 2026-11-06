@@ -1,0 +1,55 @@
+name: Refresh fixtures
+
+# Pulls Ballinascreen fixtures & results from Derry GAA (Club & County) and commits
+# them to docs/ when anything changes. GitHub Pages then republishes the site.
+on:
+  schedule:
+    - cron: "7 */2 * * 1-4"        # Mon–Thu: every 2 hours
+    - cron: "7,37 * * * 0,5,6"     # Fri–Sun: every 30 minutes (match days)
+  workflow_dispatch: {}             # "Run workflow" button in the Actions tab
+  push:                             # also runs straight after the site is uploaded or the script changes
+    branches: [main]
+    paths:
+      - scraper/**
+      - .github/workflows/refresh-fixtures.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-fixtures
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install --quiet requests beautifulsoup4
+
+      - name: Fetch and build
+        run: python scraper/scrape.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data docs/*.ics
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git commit -q -m "Refresh fixtures from Derry GAA"
+          for attempt in 1 2 3; do
+            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            sleep 5
+          done
+          echo "::error::Could not push the refreshed fixtures"
+          exit 1
