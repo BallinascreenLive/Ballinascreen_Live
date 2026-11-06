@@ -26,29 +26,29 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:2026-08-18-u14-ballinascreen-v-steelstown-brian-ogs@ballinascreen-gac
-DTSTAMP:20261106T190703Z
+DTSTAMP:20261106T191251Z
 DTSTART;TZID=Europe/London:20260818T193000
 DTEND;TZID=Europe/London:20260818T210000
 SUMMARY:U14: Ballinascreen 2-10 Steelstown Brian Og's 1-2
 LOCATION:St Colm's Ballinascreen
-DESCRIPTION:HSF Group U14A1 Football Championship Knockout\, Quarter-final
+DESCRIPTION:HSF Group U14A1 Football Championship\, Quarter-final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-01-u14-ballinderry-v-ballinascreen@ballinascreen-gac
-DTSTAMP:20261106T190703Z
+DTSTAMP:20261106T191251Z
 DTSTART;TZID=Europe/London:20260901T200000
 DTEND;TZID=Europe/London:20260901T213000
 SUMMARY:U14: Ballinderry 1-5 Ballinascreen 1-8
 LOCATION:Ballinderry
-DESCRIPTION:HSF Group U14A1 Football Championship Knockout\, Semi-final
+DESCRIPTION:HSF Group U14A1 Football Championship\, Semi-final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-15-u14-ballinascreen-v-an-gleann@ballinascreen-gac
-DTSTAMP:20261106T190703Z
+DTSTAMP:20261106T191251Z
 DTSTART;TZID=Europe/London:20260915T190000
 DTEND;TZID=Europe/London:20260915T203000
 SUMMARY:U14: Ballinascreen 4-7 An Gleann 0-9
 LOCATION:Bellaghy
-DESCRIPTION:HSF Group U14A1 Football Championship Knockout\, Final
+DESCRIPTION:HSF Group U14A1 Football Championship\, Final
 END:VEVENT
 END:VCALENDAR
