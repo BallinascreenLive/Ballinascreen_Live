@@ -266,6 +266,11 @@ def tidy_comp(text: str) -> tuple[str, str]:
     parts = [p for p in re.split(r"\s+[-–]\s*|\s*[-–]\s+", clean(text)) if p.strip()]
     if not parts:
         return clean(text), ""
+    # "B A Mullan Farms - U16A1/A2 Football Championship - ...": a sponsor split from its competition
+    comp_word = re.compile(r"\b(championship|league|cup|shield|blitz|tournament|feile|final)\b", re.I)
+    while len(parts) > 1 and not comp_word.search(parts[0]) and comp_word.search(parts[1]):
+        parts[0:2] = [parts[0] + " " + parts[1]]
+    parts[0] = re.sub(r"\s+(knockouts?|ko)$", "", parts[0], flags=re.I)
     comp = clean(re.sub(r"\b20\d\d\b", "", parts[0]))
     comp = " ".join(w.title() if (w.isupper() and len(w) > 3 and w.isalpha()) else w for w in comp.split())
     rnd = []
