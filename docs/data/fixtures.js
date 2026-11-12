@@ -1,7 +1,7 @@
 window.CLUB_FIXTURES = {
  "club": "Ballinascreen GAC",
  "source": "https://derry.clubandcounty.com/fixtures-results/team/ballinascreen-b/4588e674-d3f0-faf9-8504-7d4c3f131144/",
- "updated": "2026-11-06T19:12:51Z",
+ "updated": "2026-11-12T18:08:33Z",
  "calendars": [
   {
    "grade": "Hurling",
@@ -974,6 +974,24 @@ window.CLUB_FIXTURES = {
    "concededBy": null,
    "us": "away",
    "venue": "Glen",
+   "referee": "TBC",
+   "stream": null
+  },
+  {
+   "id": "2026-11-11-u14-b-ballinascreen-b-v-sleacht-neill-b",
+   "date": "2026-11-11",
+   "time": "19:00",
+   "competition": "HSF Group U14A1B Football Championship",
+   "round": "Round 1",
+   "grade": "U14 B",
+   "home": "Ballinascreen B",
+   "away": "Sleacht Néill B",
+   "homeScore": "3-11",
+   "awayScore": "1-8",
+   "status": "result",
+   "concededBy": null,
+   "us": "home",
+   "venue": "Cahore Council Pitch",
    "referee": "TBC",
    "stream": null
   }

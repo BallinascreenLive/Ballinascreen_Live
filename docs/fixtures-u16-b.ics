@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:2026-08-28-u16-b-ballinascreen-b-v-dungiven-b@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260828T190000
 DTEND;TZID=Europe/London:20260828T203000
 SUMMARY:U16 B: Ballinascreen 9-12 Dungiven B 3-5
@@ -36,7 +36,7 @@ DESCRIPTION:B A Mullan Farms U16C1/C2 Football Championship\, Group 4\, Ro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-10-u16-b-glack-v-ballinascreen-b@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260910T184500
 DTEND;TZID=Europe/London:20260910T201500
 SUMMARY:U16 B: Glack 0-11 Ballinascreen 4-11
@@ -46,7 +46,7 @@ DESCRIPTION:B A Mullan Farms U16C1/C2 Football Championship\, Group 4\, Ro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-24-u16-b-ballinascreen-b-v-magilligan@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260924T183000
 DTEND;TZID=Europe/London:20260924T200000
 SUMMARY:U16 B: Ballinascreen 6-14 Magilligan 1-5
@@ -55,7 +55,7 @@ DESCRIPTION:B A Mullan Farms U16C1 Football Championship\, Quarter-final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-13-u16-b-ballinascreen-b-v-ballerin@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20261013T200000
 DTEND;TZID=Europe/London:20261013T213000
 SUMMARY:U16 B: Ballinascreen 2-5 Ballerin 0-9
@@ -64,7 +64,7 @@ DESCRIPTION:B A Mullan Farms U16C1 Football Championship\, Semi-final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-19-u16-b-dungiven-b-v-ballinascreen-b@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20261019T183000
 DTEND;TZID=Europe/London:20261019T200000
 SUMMARY:U16 B: Dungiven B 2-2 Ballinascreen 6-9
@@ -73,7 +73,7 @@ DESCRIPTION:U16B Football League\, League Division 1\, Round 10
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-23-u16-b-desertmartin-v-ballinascreen-b@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20261023T190000
 DTEND;TZID=Europe/London:20261023T203000
 SUMMARY:U16 B: Desertmartin 2-9 Ballinascreen 1-7

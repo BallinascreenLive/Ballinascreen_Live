@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:2026-08-21-reserves-ballinascreen-v-bellaghy-res@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260821T190000
 DTEND;TZID=Europe/London:20260821T204500
 SUMMARY:Reserves: Ballinascreen 4-9 Bellaghy Res 0-7
@@ -36,7 +36,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-07-reserves-magherafelt-res-v-ballinascreen-res@ballinascreen-
  gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260907T190000
 DTEND;TZID=Europe/London:20260907T204500
 SUMMARY:Reserves: Magherafelt Res 3-19 Ballinascreen 1-16
@@ -46,7 +46,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-11-reserves-sleacht-neill-res-v-ballinascreen-res@ballinascree
  n-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260911T200000
 DTEND;TZID=Europe/London:20260911T214500
 SUMMARY:Reserves: Sleacht Néill Res 2-16 Ballinascreen 2-11

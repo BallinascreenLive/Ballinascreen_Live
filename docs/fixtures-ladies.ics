@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:2026-09-08-ladies-lavey-v-ballinascreen@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260908T193000
 DTEND;TZID=Europe/London:20260908T210000
 SUMMARY:Ladies: Lavey 9-16 Ballinascreen 3-5
@@ -35,7 +35,7 @@ DESCRIPTION:Intermediate Championship\, League Division 1\, Round 4
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-21-ladies-ballinascreen-v-ballerin@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260921T190000
 DTEND;TZID=Europe/London:20260921T203000
 SUMMARY:Ladies: Ballinascreen 3-8 Ballerin 2-15

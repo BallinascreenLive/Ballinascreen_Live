@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:2026-08-14-hurling-u14-ballinascreen-v-swatragh@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260814T193000
 DTEND;TZID=Europe/London:20260814T210000
 SUMMARY:Hurling U14: Ballinascreen 5-14 Swatragh 2-7
@@ -35,7 +35,7 @@ DESCRIPTION:T Mackle U14A/B Hurling Championship\, Group 2\, Round 3
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-25-hurling-u14-ballinascreen-v-setanta@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260825T190000
 DTEND;TZID=Europe/London:20260825T203000
 SUMMARY:Hurling U14: Ballinascreen 3-10 Setanta 2-5
@@ -45,7 +45,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-22-hurling-u14-ballinascreen-v-clg-roibeard-eimeid-sleacht-nei
  ll@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260922T200000
 DTEND;TZID=Europe/London:20260922T213000
 SUMMARY:Hurling U14: Ballinascreen 3-7 CLG Roibeard Eiméid\, Sleacht Néi

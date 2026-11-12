@@ -27,7 +27,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:2026-08-14-hurling-u14-b-ballinascreen-b-v-swatragh-b@ballinascreen-ga
  c
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260814T183000
 DTEND;TZID=Europe/London:20260814T200000
 SUMMARY:Hurling U14 B: Ballinascreen 3-6 Swatragh B 3-2
@@ -37,7 +37,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-08-hurling-u14-b-fionnbarra-naofa-v-ballinascreen-b@ballinascr
  een-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260908T184500
 DTEND;TZID=Europe/London:20260908T201500
 SUMMARY:Hurling U14 B: Fionnbarra Naofa 4-5 Ballinascreen 5-5
@@ -47,7 +47,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-22-hurling-u14-b-kevin-lynch-b-v-ballinascreen-b@ballinascreen
  -gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260922T183000
 DTEND;TZID=Europe/London:20260922T200000
 SUMMARY:Hurling U14 B: Kevin Lynch B 3-7 Ballinascreen 3-6

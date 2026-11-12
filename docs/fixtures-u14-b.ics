@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:2026-08-19-u14-b-ballinascreen-b-v-dungiven-b@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260819T190000
 DTEND;TZID=Europe/London:20260819T203000
 SUMMARY:U14 B: Ballinascreen 11-19 Dungiven B 0-0
@@ -35,7 +35,7 @@ DESCRIPTION:HSF Group U14A1B Football Championship\, Cup\, Quarter-final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-01-u14-b-ballinderry-b-v-ballinascreen-b@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260901T184500
 DTEND;TZID=Europe/London:20260901T201500
 SUMMARY:U14 B: Ballinderry B 0-5 Ballinascreen 9-7
@@ -44,11 +44,20 @@ DESCRIPTION:HSF Group U14A1B Football Championship\, Cup\, Semi-final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-13-u14-b-ballinascreen-b-v-steelstown-b@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260913T130000
 DTEND;TZID=Europe/London:20260913T143000
 SUMMARY:U14 B: Ballinascreen 5-3 Steelstown B 3-5
 LOCATION:Dungiven
 DESCRIPTION:HSF Group U14A1B Football Championship\, Cup\, Final
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-11-u14-b-ballinascreen-b-v-sleacht-neill-b@ballinascreen-gac
+DTSTAMP:20261112T180833Z
+DTSTART;TZID=Europe/London:20261111T190000
+DTEND;TZID=Europe/London:20261111T203000
+SUMMARY:U14 B: Ballinascreen 3-11 Sleacht Néill B 1-8
+LOCATION:Cahore Council Pitch
+DESCRIPTION:HSF Group U14A1B Football Championship\, Round 1
 END:VEVENT
 END:VCALENDAR

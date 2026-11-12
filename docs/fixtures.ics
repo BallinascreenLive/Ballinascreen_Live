@@ -27,7 +27,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:2026-08-13-ladies-u14-2-ballinascreen-2-v-slaughtneil-2@ballinascreen-
  gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260813T190000
 DTEND;TZID=Europe/London:20260813T203000
 SUMMARY:Ladies U14 2: Ballinascreen 1-0 Slaughtneil 2 3-13
@@ -36,7 +36,7 @@ DESCRIPTION:U14 Championship\, Cup Division 5\, Semi-final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-13-ladies-u14-ballinderry-v-ballinascreen@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260813T193000
 DTEND;TZID=Europe/London:20260813T210000
 SUMMARY:Ladies U14: Ballinderry 5-13 Ballinascreen 2-12
@@ -46,7 +46,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-14-hurling-u14-b-ballinascreen-b-v-swatragh-b@ballinascreen-ga
  c
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260814T183000
 DTEND;TZID=Europe/London:20260814T200000
 SUMMARY:Hurling U14 B: Ballinascreen 3-6 Swatragh B 3-2
@@ -55,7 +55,7 @@ DESCRIPTION:T Mackle U14B/C Hurling Championship\, Group 3\, Round 3
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-14-hurling-u14-ballinascreen-v-swatragh@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260814T193000
 DTEND;TZID=Europe/London:20260814T210000
 SUMMARY:Hurling U14: Ballinascreen 5-14 Swatragh 2-7
@@ -64,7 +64,7 @@ DESCRIPTION:T Mackle U14A/B Hurling Championship\, Group 2\, Round 3
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-14-hurling-u18-swatragh-v-ballinascreen@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260814T193000
 DTEND;TZID=Europe/London:20260814T210000
 SUMMARY:Hurling U18: Swatragh 1-12 Ballinascreen 0-8
@@ -73,7 +73,7 @@ DESCRIPTION:T Mackle U18B Hurling Championship\, U18HC 'B' Semi Final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-16-hurling-ballinascreen-v-banagher@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260816T150000
 DTEND;TZID=Europe/London:20260816T164500
 SUMMARY:Hurling: Ballinascreen 1-13 Banagher 1-16
@@ -82,7 +82,7 @@ DESCRIPTION:Leadon Timber Frame Hurling Championship\, Round 1
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-17-u18-st-canices-gac-v-ballinascreen@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260817T190000
 DTEND;TZID=Europe/London:20260817T203000
 SUMMARY:U18: St Canice's GAC 4-18 Ballinascreen 0-5
@@ -91,7 +91,7 @@ DESCRIPTION:O'Neills U18A1 Football Championship\, Quarter-final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-18-u14-c-ballinascreen-c-v-craigbane@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260818T183000
 DTEND;TZID=Europe/London:20260818T200000
 SUMMARY:U14 C: Ballinascreen 6-7 Craigbane 4-9
@@ -100,7 +100,7 @@ DESCRIPTION:HSF Group U14C Football Championship\, Quarter-final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-18-u14-ballinascreen-v-steelstown-brian-ogs@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260818T193000
 DTEND;TZID=Europe/London:20260818T210000
 SUMMARY:U14: Ballinascreen 2-10 Steelstown Brian Og's 1-2
@@ -109,7 +109,7 @@ DESCRIPTION:HSF Group U14A1 Football Championship\, Quarter-final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-19-u14-b-ballinascreen-b-v-dungiven-b@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260819T190000
 DTEND;TZID=Europe/London:20260819T203000
 SUMMARY:U14 B: Ballinascreen 11-19 Dungiven B 0-0
@@ -118,7 +118,7 @@ DESCRIPTION:HSF Group U14A1B Football Championship\, Cup\, Quarter-final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-20-ladies-u14-st-canices-gac-v-ballinascreen@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260820T193000
 DTEND;TZID=Europe/London:20260820T210000
 SUMMARY:Ladies U14: St Canice's GAC 4-6 Ballinascreen 7-9
@@ -127,7 +127,7 @@ DESCRIPTION:U14 Championship\, Cup Division 1\, Semi-final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-21-reserves-ballinascreen-v-bellaghy-res@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260821T190000
 DTEND;TZID=Europe/London:20260821T204500
 SUMMARY:Reserves: Ballinascreen 4-9 Bellaghy Res 0-7
@@ -136,7 +136,7 @@ DESCRIPTION:Recreational Reserve League\, League Division 1\, Round 13
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-22-hurling-na-magha-v-ballinascreen@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260822T140000
 DTEND;TZID=Europe/London:20260822T154500
 SUMMARY:Hurling: Na Magha 2-10 Ballinascreen 1-22
@@ -145,7 +145,7 @@ DESCRIPTION:Leadon Timber Frame Hurling Championship\, Q1b
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-25-hurling-u14-ballinascreen-v-setanta@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260825T190000
 DTEND;TZID=Europe/London:20260825T203000
 SUMMARY:Hurling U14: Ballinascreen 3-10 Setanta 2-5
@@ -154,7 +154,7 @@ DESCRIPTION:T Mackle U14A Hurling Championship\, Semi-final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-26-ladies-u14-ballinascreen-v-lavey@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260826T190000
 DTEND;TZID=Europe/London:20260826T203000
 SUMMARY:Ladies U14: Ballinascreen 5-17 Lavey 2-7
@@ -163,7 +163,7 @@ DESCRIPTION:U14 Championship\, Cup Division 1\, Final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-27-u14-c-sean-dolans-v-ballinascreen-c@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260827T190000
 DTEND;TZID=Europe/London:20260827T203000
 SUMMARY:U14 C: Sean Dolans 5-7 Ballinascreen 2-6
@@ -173,7 +173,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-27-u16-st-malachys-castledawson-v-ballinascreen@ballinascreen-
  gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260827T190000
 DTEND;TZID=Europe/London:20260827T203000
 SUMMARY:U16: St Malachy's Castledawson 1-11 Ballinascreen 3-8
@@ -183,7 +183,7 @@ DESCRIPTION:B A Mullan Farms U16A1/A2 Football Championship\, Group 2\, Ro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-28-u16-b-ballinascreen-b-v-dungiven-b@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260828T190000
 DTEND;TZID=Europe/London:20260828T203000
 SUMMARY:U16 B: Ballinascreen 9-12 Dungiven B 3-5
@@ -193,7 +193,7 @@ DESCRIPTION:B A Mullan Farms U16C1/C2 Football Championship\, Group 4\, Ro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-08-30-hurling-u16-ballinascreen-v-banagher@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260831
 SUMMARY:Hurling U16: Ballinascreen v Banagher (conceded)
@@ -202,7 +202,7 @@ DESCRIPTION:T Mackle U16 Hurling Championship\, Group 1\, Round 1
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-01-u14-b-ballinderry-b-v-ballinascreen-b@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260901T184500
 DTEND;TZID=Europe/London:20260901T201500
 SUMMARY:U14 B: Ballinderry B 0-5 Ballinascreen 9-7
@@ -211,7 +211,7 @@ DESCRIPTION:HSF Group U14A1B Football Championship\, Cup\, Semi-final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-01-u14-ballinderry-v-ballinascreen@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260901T200000
 DTEND;TZID=Europe/London:20260901T213000
 SUMMARY:U14: Ballinderry 1-5 Ballinascreen 1-8
@@ -220,7 +220,7 @@ DESCRIPTION:HSF Group U14A1 Football Championship\, Semi-final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-03-u16-ballinascreen-v-an-gleann@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260903T190000
 DTEND;TZID=Europe/London:20260903T203000
 SUMMARY:U16: Ballinascreen 7-11 An Gleann 0-10
@@ -230,7 +230,7 @@ DESCRIPTION:B A Mullan Farms U16A1/A2 Football Championship\, Group 2\, Ro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-04-seniors-ballinderry-v-ballinascreen@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260904T193000
 DTEND;TZID=Europe/London:20260904T211500
 SUMMARY:Seniors: Ballinderry 2-17 Ballinascreen 2-13
@@ -239,7 +239,7 @@ DESCRIPTION:O'Neills Senior Football Championship\, Round 1
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-06-ladies-u16-the-loup-v-ballinascreen@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260906T110000
 DTEND;TZID=Europe/London:20260906T123000
 SUMMARY:Ladies U16: The Loup 2-10 Ballinascreen 1-11
@@ -249,7 +249,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-07-reserves-magherafelt-res-v-ballinascreen-res@ballinascreen-
  gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260907T190000
 DTEND;TZID=Europe/London:20260907T204500
 SUMMARY:Reserves: Magherafelt Res 3-19 Ballinascreen 1-16
@@ -259,7 +259,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-08-hurling-u14-b-fionnbarra-naofa-v-ballinascreen-b@ballinascr
  een-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260908T184500
 DTEND;TZID=Europe/London:20260908T201500
 SUMMARY:Hurling U14 B: Fionnbarra Naofa 4-5 Ballinascreen 5-5
@@ -268,7 +268,7 @@ DESCRIPTION:T Mackle U14C Hurling Championship\, Semi-final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-08-ladies-lavey-v-ballinascreen@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260908T193000
 DTEND;TZID=Europe/London:20260908T210000
 SUMMARY:Ladies: Lavey 9-16 Ballinascreen 3-5
@@ -277,7 +277,7 @@ DESCRIPTION:Intermediate Championship\, League Division 1\, Round 4
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-09-seniors-st-canices-gac-v-ballinascreen@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260909T193000
 DTEND;TZID=Europe/London:20260909T211500
 SUMMARY:Seniors: St Canice's GAC 2-14 Ballinascreen 1-13
@@ -286,7 +286,7 @@ DESCRIPTION:O'Neills Senior Football Championship\, Q1b
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-10-u16-b-glack-v-ballinascreen-b@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260910T184500
 DTEND;TZID=Europe/London:20260910T201500
 SUMMARY:U16 B: Glack 0-11 Ballinascreen 4-11
@@ -296,7 +296,7 @@ DESCRIPTION:B A Mullan Farms U16C1/C2 Football Championship\, Group 4\, Ro
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-10-u16-swatragh-v-ballinascreen@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260910T190000
 DTEND;TZID=Europe/London:20260910T203000
 SUMMARY:U16: Swatragh 0-4 Ballinascreen 4-13
@@ -307,7 +307,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-11-reserves-sleacht-neill-res-v-ballinascreen-res@ballinascree
  n-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260911T200000
 DTEND;TZID=Europe/London:20260911T214500
 SUMMARY:Reserves: Sleacht Néill Res 2-16 Ballinascreen 2-11
@@ -316,7 +316,7 @@ DESCRIPTION:JPM Recreational Reserve Cup\, Round 1
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-13-u14-b-ballinascreen-b-v-steelstown-b@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260913T130000
 DTEND;TZID=Europe/London:20260913T143000
 SUMMARY:U14 B: Ballinascreen 5-3 Steelstown B 3-5
@@ -326,7 +326,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-13-hurling-u16-clg-roibeard-eimeid-sleacht-neill-v-ballinascre
  en@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260913T133000
 DTEND;TZID=Europe/London:20260913T150000
 SUMMARY:Hurling U16: CLG Roibeard Eiméid\, Sleacht Néill 7-19 Ballinascr
@@ -336,7 +336,7 @@ DESCRIPTION:T Mackle U16 Hurling Championship\, Group 1\, Round 3
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-13-hurling-banagher-v-ballinascreen@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260913T154500
 DTEND;TZID=Europe/London:20260913T173000
 SUMMARY:Hurling: Banagher 0-14 Ballinascreen 0-12
@@ -346,7 +346,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-14-hurling-reserves-ballinascreen-v-fionnbarra-naofa@ballinasc
  reen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260914T190000
 DTEND;TZID=Europe/London:20260914T203000
 SUMMARY:Hurling Reserves: Ballinascreen 9-30 Fionnbarra Naofa 0-8
@@ -356,7 +356,7 @@ DESCRIPTION:Leadon Timber Frame Reserve Hurling Championship\, Quarter-fin
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-15-u14-ballinascreen-v-an-gleann@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260915T190000
 DTEND;TZID=Europe/London:20260915T203000
 SUMMARY:U14: Ballinascreen 4-7 An Gleann 0-9
@@ -365,7 +365,7 @@ DESCRIPTION:HSF Group U14A1 Football Championship\, Final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-20-hurling-swatragh-v-ballinascreen@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260920T120000
 DTEND;TZID=Europe/London:20260920T134500
 SUMMARY:Hurling: Swatragh 3-30 Ballinascreen 4-22
@@ -374,7 +374,7 @@ DESCRIPTION:Leadon Timber Frame Hurling Championship\, JHC Final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-21-hurling-reserves-lavey-v-ballinascreen@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260921T190000
 DTEND;TZID=Europe/London:20260921T203000
 SUMMARY:Hurling Reserves: Lavey 1-16 Ballinascreen 5-23
@@ -383,7 +383,7 @@ DESCRIPTION:Leadon Timber Frame Reserve Hurling Championship\, Semi-final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-21-ladies-ballinascreen-v-ballerin@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260921T190000
 DTEND;TZID=Europe/London:20260921T203000
 SUMMARY:Ladies: Ballinascreen 3-8 Ballerin 2-15
@@ -393,7 +393,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-22-hurling-u14-b-kevin-lynch-b-v-ballinascreen-b@ballinascreen
  -gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260922T183000
 DTEND;TZID=Europe/London:20260922T200000
 SUMMARY:Hurling U14 B: Kevin Lynch B 3-7 Ballinascreen 3-6
@@ -403,7 +403,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-22-hurling-u14-ballinascreen-v-clg-roibeard-eimeid-sleacht-nei
  ll@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260922T200000
 DTEND;TZID=Europe/London:20260922T213000
 SUMMARY:Hurling U14: Ballinascreen 3-7 CLG Roibeard Eiméid\, Sleacht Néi
@@ -413,7 +413,7 @@ DESCRIPTION:T Mackle U14A Hurling Championship\, Final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-24-u16-b-ballinascreen-b-v-magilligan@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260924T183000
 DTEND;TZID=Europe/London:20260924T200000
 SUMMARY:U16 B: Ballinascreen 6-14 Magilligan 1-5
@@ -423,7 +423,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-24-u16-ballinascreen-v-st-michaels-gac-lissan@ballinascreen-ga
  c
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260924T200000
 DTEND;TZID=Europe/London:20260924T213000
 SUMMARY:U16: Ballinascreen 4-17 St Michael's GAC Lissan 3-20
@@ -432,7 +432,7 @@ DESCRIPTION:B A Mullan Farms U16A1 Football Championship\, Quarter-final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-26-seniors-ballinascreen-v-the-loup@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20260926T160000
 DTEND;TZID=Europe/London:20260926T174500
 SUMMARY:Seniors: Ballinascreen 2-17 The Loup 1-19
@@ -442,7 +442,7 @@ DESCRIPTION:O'Neills Senior Football Championship\, Relegation Semi Final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-01-hurling-u16-ballinascreen-v-na-magha@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20261001T193000
 DTEND;TZID=Europe/London:20261001T210000
 SUMMARY:Hurling U16: Ballinascreen 5-21 Na Magha 3-6
@@ -451,7 +451,7 @@ DESCRIPTION:T Mackle U16B Hurling Championship\, Semi-final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-03-hurling-reserves-swatragh-v-ballinascreen@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20261003T170000
 DTEND;TZID=Europe/London:20261003T183000
 SUMMARY:Hurling Reserves: Swatragh 4-17 Ballinascreen 1-22
@@ -460,7 +460,7 @@ DESCRIPTION:Leadon Timber Frame Reserve Hurling Championship\, Final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-13-u16-b-ballinascreen-b-v-ballerin@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20261013T200000
 DTEND;TZID=Europe/London:20261013T213000
 SUMMARY:U16 B: Ballinascreen 2-5 Ballerin 0-9
@@ -469,7 +469,7 @@ DESCRIPTION:B A Mullan Farms U16C1 Football Championship\, Semi-final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-15-hurling-u16-swatragh-v-ballinascreen@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20261015T190000
 DTEND;TZID=Europe/London:20261015T203000
 SUMMARY:Hurling U16: Swatragh 0-16 Ballinascreen 0-12
@@ -478,7 +478,7 @@ DESCRIPTION:T Mackle U16B Hurling Championship\, Final
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-19-u16-b-dungiven-b-v-ballinascreen-b@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20261019T183000
 DTEND;TZID=Europe/London:20261019T200000
 SUMMARY:U16 B: Dungiven B 2-2 Ballinascreen 6-9
@@ -487,11 +487,20 @@ DESCRIPTION:U16B Football League\, League Division 1\, Round 10
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-23-u16-b-desertmartin-v-ballinascreen-b@ballinascreen-gac
-DTSTAMP:20261106T191251Z
+DTSTAMP:20261112T180833Z
 DTSTART;TZID=Europe/London:20261023T190000
 DTEND;TZID=Europe/London:20261023T203000
 SUMMARY:U16 B: Desertmartin 2-9 Ballinascreen 1-7
 LOCATION:Glen
 DESCRIPTION:B A Mullan Farms U16C1 Football Championship\, Final
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-11-u14-b-ballinascreen-b-v-sleacht-neill-b@ballinascreen-gac
+DTSTAMP:20261112T180833Z
+DTSTART;TZID=Europe/London:20261111T190000
+DTEND;TZID=Europe/London:20261111T203000
+SUMMARY:U14 B: Ballinascreen 3-11 Sleacht Néill B 1-8
+LOCATION:Cahore Council Pitch
+DESCRIPTION:HSF Group U14A1B Football Championship\, Round 1
 END:VEVENT
 END:VCALENDAR
